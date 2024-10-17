@@ -35,7 +35,20 @@ For each tool, I include:
 - A brief description of its purpose.
 - Key commands and use cases.
 - Practical examples and scenarios.
-- 
+
+  <footer>
+     ---
+
+🌟 **Made with love by [Nova Pulse](https://github.com/novapulse)** 🌟  
+I believe in the power of learning, sharing, and building a supportive community. This repository is part of that journey, and I hope it helps others in their path towards mastering Kali Linux tools and ethical hacking.  
+💖 If you found this project helpful or inspiring, consider sharing it with others. Together, we can build a world of curious minds and ethical hackers who love to learn, grow, and give back.
+
+Feel free to **reach out** if you have any questions or ideas!  
+📧 Contact me at: **novapulse98@gmail.com**
+
+  </footer>
+
+  
 
 
 
