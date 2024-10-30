@@ -6,11 +6,11 @@ Some common uses of Nmap are netwrok discovery, Security auditing, Port scanning
 <h5>1.Host discovery </h5>
 One of the very first steps in any network reconnaissance mission is to reduce a (sometimes huge) set of IP ranges into a list of active or interesting hosts. Scanning every port of every single IP address is slow and usually unnecessary.
 Host discovery is sometimes called ping scan, but it goes well beyond the simple ICMP echo request packets associated with the ubiquitous ping tool.
-<br>
+
 If no host discovery options are given, Nmap sends an ICMP echo request, a TCP SYN packet to port 443, a TCP ACK packet to port 80, and an ICMP timestamp request.
 For unprivileged Unix shell users, the default probes are a SYN packet to ports 80 and 443 using the connect system call
 <br>
--sL(list scan)
+<bold>-sL(list scan)<bold>
 <br>
 The list scan is a degenerate form of host discovery that simply lists each host of the network(s) specified, without sending any packets to the target hosts. By default, Nmap still does reverse-DNS resolution on the hosts to learn their names. It is often surprising how much useful information simple hostnames give out. For example, fw.chi is the name of one company's Chicago firewall. Nmap also reports the total number of IP addresses at the end
 <br>
